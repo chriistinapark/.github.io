@@ -40,3 +40,32 @@ header {
     }
 }
 
+@media screen and (max-width: 1375px) and (min-width: 983px) {
+    header {
+        width: 983px;
+        ul {
+            margin-left: 422px;
+        }
+    
+        .header__tel {
+            margin-left: 254px;
+        }
+    }
+}
+
+@media screen and (max-width: 982px) and (min-width: 344px) {
+    header {
+        nav {
+            display: none;
+        }
+
+        a {
+            display: none;
+        }
+
+        .header__menu {
+            display: inline;
+            margin-left: 233px;
+        }
+    }
+}
